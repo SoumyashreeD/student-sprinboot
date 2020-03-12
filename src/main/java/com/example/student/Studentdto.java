@@ -10,7 +10,16 @@ public class Studentdto {
     private String username;
     private String password;
     private int age;
-    private int percentage;
+    private String gender;
+    public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	private int percentage;
 
     public int getId() {
         return id;
