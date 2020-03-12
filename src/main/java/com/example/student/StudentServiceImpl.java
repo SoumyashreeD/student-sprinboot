@@ -58,6 +58,7 @@ public class StudentServiceImpl implements StudentService {
     	newStudent.setLastName(student.getLastName());
     	newStudent.setPassword(student.getPassword());
     	newStudent.setAge(student.getAge());
+	    newStudent.setGender(student.getGender());
     	newStudent.setPercentage(student.getPercentage());
         return studentDao.save(newStudent);
     }
