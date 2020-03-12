@@ -11,6 +11,7 @@ public class Studentdto {
     private String password;
     private int age;
     private String gender;
+	private int percentage;
     public String getGender() {
 		return gender;
 	}
@@ -19,7 +20,7 @@ public class Studentdto {
 		this.gender = gender;
 	}
 
-	private int percentage;
+	
 
     public int getId() {
         return id;
