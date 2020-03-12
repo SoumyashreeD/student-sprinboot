@@ -16,12 +16,13 @@ public class StudentApplication {
     public CommandLineRunner init(StudentDao studentDao){
         return args -> {
             Student user1 = new Student ();
-            user1.setFirstName("Devglan");
-            user1.setLastName("Devglan");
+            user1.setFirstName("Soumyashree");
+            user1.setLastName("Dhabade");
             user1.setPercentage(90);
-            user1.setAge(23);
-            user1.setUsername("devglan");
-            user1.setPassword("devglan");
+            user1.setAge(21);
+	    user1.setGender("Female");
+            user1.setUsername("soumya");
+            user1.setPassword("1234");
             studentDao.save(user1);
         };
 
